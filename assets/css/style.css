@@ -1,8 +1,54 @@
-img.small {
-    width: 100px;
-    height: 1
-    200px;
-}
-#About {
-    
-}
+body {
+    background-color: #ffffff;
+    height: 100%;
+    width: 960px;
+    }
+    header {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        height: 10%;
+        width: 960px;
+        }
+        #top {
+            padding: 10px;
+            background-color:#4aaaa5;
+            color: white;
+            border-color: #cccccc;
+            }
+            .About {
+                float: right;
+                color: #777777;
+                }
+            .Portfolio {
+                float: right;
+                }
+            .Contact {
+                float:right;
+                }
+    #container {
+        background-image: url("assets/images/pexels-photo-242236.jpg");
+        height: 40%;
+        width: 960px;
+        border-color:gray;
+        margin: 0px auto;
+        margin-bottom: -10%;
+        }
+        #main-bio {
+            font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+            line-height: 1.5em;
+            background-color: #ffffff;
+            color: #777777;
+            height: 50%;
+            border-color: #dddddd;
+            padding: 20px;
+            width: 960px;
+            }
+            h2 {
+                font-family: 'Georgia', Times, 'Times New Roman', serif;
+                color: #4aaaa5;
+                }            
+.site-footer {
+    background-color: #666666;
+    height: 10%;
+    width: 960px;
+    margin: 0px auto;
+    }
