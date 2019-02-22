@@ -1,28 +1,35 @@
+* {
+    box-sizing: border-box;
+    text-align: left;
+}
 body {
     background-color: #ffffff;
+    margin: 0;padding: 0;
     height: 100%;
     width: 960px;
+    line-height: 1.5em;
     }
     header {
         font-family: Georgia, 'Times New Roman', Times, serif;
         height: 10%;
         width: 960px;
         }
-        #top {
+        .top {
             padding: 10px;
             background-color:#4aaaa5;
             color: white;
             border-color: #cccccc;
+            text-align: center;
             }
             .About {
-                float: right;
+                text-align: right;
                 color: #777777;
                 }
             .Portfolio {
-                float: right;
+                position: relative;
                 }
             .Contact {
-                float:right;
+                position:relative;
                 }
     #container {
         background-image: url("assets/images/pexels-photo-242236.jpg");
@@ -46,9 +53,9 @@ body {
                 font-family: 'Georgia', Times, 'Times New Roman', serif;
                 color: #4aaaa5;
                 }            
-.site-footer {
-    background-color: #666666;
-    height: 10%;
-    width: 960px;
-    margin: 0px auto;
-    }
+    .site-footer {
+        background-color: #666666;
+        height: 10%;
+        width: 960px;
+        margin: 0px auto;
+        }
