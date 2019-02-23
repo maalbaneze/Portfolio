@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 
 <html lang="en-us">
-    
+
 <head>
-    <meta charset="UTF-8">
-    <title>Michael's Portrfolio</title>
-    <link rel="stylesheet", type="type/css", href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>Michael's Portfolio</title> 
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 </head>
-    
+
 <body>
-    
+
   <header>
-    <h1>Michael Albaneze<a href="About, Portfolio, Contact"></a></h1>
+   <h1 id="top">Michael Albaneze</h1>
+      <ul class="navigation">
+        <li><a href="index.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="Portfolio.html">Portfolio</a></li>
+      </ul>
   </header>
     
   <div class="container">
 
-    <section id="Portfolio">
+    <section id="portfolio">
         <h2>Portfolio</h2>
-            <ul>
-              <li><strong>Alki</strong> <img src=""></li>
-              <li><strong>My Cat, Buddy</strong> <a href="#">sampleName</a></li>
-              <li><strong>Something Else</strong> <a href="#">coming soon</a></li>
-            </ul>
+            <div class="pictures">
+              <figure><img src="assets/images/orchid-for-web.png"  class="small" alt="Orchid close-up">
+                <figcaption>Close-up Orchid</figcaption>
+              </figure>
+              <figure><img src="assets/images/Turtle Bay at Night old photo.jpg" class="small" alt="Old photo style for Turtle Bay at night">
+                <figcaption>Turtle Bay at Night</figcaption>
+              </figure>
+              <figure><img src="assets/images/WA State ferry and The Brothers.jpg" class="small" alt="A Washington state ferry in front of the The Brothers peaks">
+                <figcaption>Cascade Ferry</figcaption>
+              </figure>
+              <figure><img src="assets/images/Whale Tail off Maui.jpg" class="small" alt="Humpback whale tail slipping into the waters off Maui">
+                <figcaption>Whale Tail</figcaption>
+              </figure>
+              <figure><img src="assets/images/SUP at Alki Jan 2019.jpg" class="small" alt="Stand-up paddler admiring a balzing red sunset at Alki">
+                <figcaption>SUP at Alki</figcaption>
+                </figure>
+              </div>
     </section>
 </body>
 
-<footer>&copy</footer>
+<footer class="site-footer">Copyright &copy</footer>
 
 </html>
