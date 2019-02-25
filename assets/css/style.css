@@ -3,15 +3,15 @@
     text-align: left;
 }
 body {
-    background-color: #ffffff;
-    margin: 0;padding: 0;
-    height: 100%;
-    width: 960px;
-    /* line-height: 1.5em; */
+    background-image: url("pexels-photo-242236.jpg");
     }
     header {
         font-family: Georgia, 'Times New Roman', Times, serif;
-        width: 960px;
+        width: 100%;
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+        height: 64px;
         }
         #top {
             padding: 15px;
@@ -47,10 +47,8 @@ body {
         }
     .container {
         clear: both;
-        background-image: url("pexels-photo-242236.jpg");
         font-family: 'Georgia', Times, 'Times New Roman', serif;
         height: 800px;
-        width: 960px;
         margin: auto;  
         padding: 30px;
         }
@@ -163,6 +161,6 @@ body {
         color: lightgrey;
         padding: 15px;
         height: 60px;
-        width: 960px;
+        width: 100%;
         text-align: center;
         }
