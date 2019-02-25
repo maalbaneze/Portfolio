@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <title>Contact Michael</title> 
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
 </head>
 
 <body>
@@ -22,21 +22,29 @@
     
   <div class="container">
 
-    <section id="contact-info">
+    <section class="contact-info">
 
-        <h2>Contact</h2>
+      <h2>Contact</h2><hr>
+
+      <form>
+        Name:<br>
+        <input type="text" name="fullname"><br>
+        Email:<br>
+        <input type="email" name="email"><br>
+        Message<br>
+        <textarea name="message" cols="1" rows="10"></textarea>
+        <input type="submit" name="Submit"><a href="mailto:maalbaneze@aol.com"></a>
         
-          <ul>
-            <li class="name">Name</li>
-            <li class="email">Email</li>
-            <li class="message">Message</li>
-          </ul>
-          
-        <div id="submit"><a href=mailto:maalbaneze@aol.com></a>Submit</div>
+      </form>
 
     </section>
+
+  </div>
+  
+  <footer class="site-footer">Copyright &copy</footer>
+
 </body>
 
-<footer class="site-footer">Copyright &copy</footer>
+
 
 </html>
