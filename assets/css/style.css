@@ -163,4 +163,16 @@ body {
         height: 60px;
         width: 100%;
         text-align: center;
-        }
+        }    
+/* Phone in landscape */
+@media only screen and (max-width: 640px) {
+    header {
+        position: static;
+    }
+}
+/* Tablet */
+@media only screen and (max-width: 768px) {
+    } 
+/* Desktop */
+@media only screen and (min-width: 980px) {
+    }
